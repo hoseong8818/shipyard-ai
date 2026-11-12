@@ -1,0 +1,13 @@
+{
+  "name": "qna-helper",
+  "version": "0.1.0",
+  "description": "사내 기술 QnA 게시판을 검색해 게시판 내용만 근거로 답하는 도우미",
+  "userConfig": {
+    "qna_api": {
+      "type": "string",
+      "title": "QnA 게시판 주소",
+      "description": "사내 QnA 게시판 주소 (예: http://localhost:3001)",
+      "required": true
+    }
+  }
+}

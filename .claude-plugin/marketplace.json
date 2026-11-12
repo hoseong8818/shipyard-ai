@@ -1,0 +1,21 @@
+{
+  "name": "shipyard-ai",
+  "owner": {
+    "name": "김호성"
+  },
+  "metadata": {
+    "description": "shipyard-ai 플러그인 마켓플레이스"
+  },
+  "plugins": [
+    {
+      "name": "qc-kit",
+      "source": "./plugins/qc-kit",
+      "description": "QC(품질 점검) 키트: 스킬 2개, 에이전트 3개, 보호 훅 포함",
+      "version": "0.1.0",
+      "author": {
+        "name": "김호성"
+      },
+      "keywords": ["qc", "quality", "review", "guard"]
+    }
+  ]
+}

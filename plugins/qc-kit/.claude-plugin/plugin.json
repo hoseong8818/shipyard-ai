@@ -1,0 +1,15 @@
+{
+  "name": "qc-kit",
+  "version": "0.1.0",
+  "description": "QC 실습 플러그인: 스킬 2개, 에이전트 3개, 보호 훅 포함",
+  "keywords": ["qc", "quality", "review", "guard"],
+  "agents": [
+    "./agents/qc-aggregator.md",
+    "./agents/qc-auditor.md",
+    "./agents/qc-writer.md"
+  ],
+"skills": [
+  "./skills/weekly-ship"
+],
+  "hooks": "./hooks/hooks.json"
+}
